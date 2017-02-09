@@ -1,0 +1,42 @@
+h1 a {
+	color: #f0644b;
+	font-family: 'Lobster';
+}
+
+.page-header {
+  list-style: none;
+  margin: 0;
+  background: #895566;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+@media all and (max-width: 800px) {
+  .page-header {
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 600px) {
+   .page-header {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
